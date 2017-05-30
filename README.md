@@ -13,7 +13,7 @@ During this meetup, you will get to experience a mix of new, promising & excitin
 We've selected the following tools for you to experiment with tonight:
 
 * Cucumber and Karate
-* Fitnesse with HSAC fixtures
+* FitNesse with HSAC fixtures
 * Cypress.io
 
 In order to be able to compare the tools we recommend you try to solve the same problems with multiple tools tonight, to really get a feel for how easy, or how hard, certain tasks are in the different tools.
