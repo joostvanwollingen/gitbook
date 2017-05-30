@@ -12,6 +12,12 @@ We've selected a number of interesting websites to use in our tests tonight. Fee
 
 ## bol.com
 
+#### Exercices
+
+* Zoek naar "G.I. Joe: The Rise Of Cobra" en vind het budget van de film in de product specificaties
+* Gebruik het categorie menu om te navigeren naar Juwelen & Accessoires / Modeaccessoires / Zonnebrillen
+* Vind op de [keuken apparaten pagina](https://www.bol.com/nl/m/elektronica/keukenapparaten/index.html) de verschillen als je de landvoorkeur wisselt van Nederland naar België
+
 ---
 
 ## Rijksmuseum
@@ -20,13 +26,17 @@ We've selected a number of interesting websites to use in our tests tonight. Fee
 
 To get an API key for the Rijksmuseum website [follow the instructions.](https://www.rijksmuseum.nl/en/api)
 
-### Tasks for the Rijksmuseum website
+#### Exercices
 
 ---
 
 ## Typeform
 
-## 
+#### API key
+
+To find you API key for Typeform, visit your [Typeform account settings](https://admin.typeform.com/account#/section/user). For more details on the Typeform API visit the [documentation](https://www.typeform.com/help/data-api/).
+
+#### Exercices
 
 
 
