@@ -22,14 +22,12 @@ Please note: Windows is currently not supported by Cypress.io, so use the VM in 
 ### Cucumber and Karate
 
 * [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-* Maven or Gradle
+* Maven
 
 ### Fitnesse with HSAC fixtures
 
 * Maven
 * [Follow the HSAC instructions](https://github.com/fhoeben/hsac-fitnesse-fixtures#to-create-your-own-test-project)
-
-
 
 
 

@@ -16,7 +16,9 @@ We've selected the following tools for you to experiment with tonight:
 * Fitnesse with HSAC fixtures
 * Cypress.io
 
-In order to be able to compare the tools we recommend you try to solve the same problems with multiple tools tonight, to really get a feel for how easy, or how hard, certain tasks are in the different tools. 
+In order to be able to compare the tools we recommend you try to solve the same problems with multiple tools tonight, to really get a feel for how easy, or how hard, certain tasks are in the different tools.
 
+## Getting started
 
+First things first: we need to setup a development environment. Head over to the [setup section](/virtual-machine.md) and we will get you sorted.
 
