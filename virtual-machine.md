@@ -22,12 +22,16 @@ Please note: Windows is currently not supported by Cypress.io, so use the VM in 
 ### Cucumber and Karate
 
 * [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-* Maven
+* [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
-### Fitnesse with HSAC fixtures
+### FitNesse with HSAC fixtures
 
-* Maven
+Try it out (sufficient for this workshop):
+* [JVM 7 or 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+* Download and unzip [project's standalone.zip](https://github.com/fhoeben/hsac-fitnesse-fixtures/releases/download/2.12.1/hsac-fitnesse-fixtures-2.12.1-standalone.zip)
+
+Full developer mode:
+* [JDK 7 or 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 * [Follow the HSAC instructions](https://github.com/fhoeben/hsac-fitnesse-fixtures#to-create-your-own-test-project)
-
-
 
