@@ -1,1 +1,20 @@
-# gitbook
+# Hands-on test tooling workshops by bol.com and VX Company
+
+These instructions are for the [bol.com Techlab meetup](https://www.meetup.com/bol-com-techlab/events/239206504/), co-organized with VX Company.
+
+## Introduction
+
+New testing tools are introduced every week it seems, but how new and useful are they really? The search for the ultimate tool seems to be a never-ending quest. As IT professionals we are required to continuously stay up to date, to keep learning and expand our knowledge. Let us help you with that. 
+
+During this meetup, you will get to experience a mix of new, promising & exciting, test automation tools in hands-on workshops. For each tool there will be a short introduction and some exercises, so be prepared to get your hands dirty. Let's see how these new kids on the block stack up to the usual suspects.
+
+## The Tools
+
+We've selected the following tools for you to experiment with tonight:
+
+* Cucumber and Karate
+* Fitnesse with HSAC fixtures
+* Cypress.io
+
+
+
