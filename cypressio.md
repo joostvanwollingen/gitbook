@@ -14,9 +14,9 @@ We've selected a number of interesting websites to use in our tests tonight. Fee
 
 #### Exercices
 
-* Zoek naar "G.I. Joe: The Rise Of Cobra" en vind het budget van de film in de product specificaties
-* Gebruik het categorie menu om te navigeren naar Juwelen & Accessoires / Modeaccessoires / Zonnebrillen
-* Vind op de [keuken apparaten pagina](https://www.bol.com/nl/m/elektronica/keukenapparaten/index.html) de verschillen als je de landvoorkeur wisselt van Nederland naar België
+* Search for "G.I. Joe: The Rise Of Cobra" and find the budget of the movie in the product specifcations
+* Use the category menu to navigate to "Juwelen & Accessoires / Modeaccessoires / Zonnebrillen"-page
+* Find the differences on the [kitchen appliances page](https://www.bol.com/nl/m/elektronica/keukenapparaten/index.html) when you switch the country from Netherlands to Belgium
 
 ---
 
