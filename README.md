@@ -20,5 +20,5 @@ In order to be able to compare the tools we recommend you try to solve the same 
 
 ## Getting started
 
-First things first: we need to setup a development environment. Head over to the [setup section](/virtual-machine.md) and we will get you sorted.
+First things first: we need to setup a development environment. Head over to the [setup section](/setup.md) and we will get you sorted.
 
