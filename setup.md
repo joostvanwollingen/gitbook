@@ -5,7 +5,7 @@
 Setting up a development environment is part of being a toolsmith, but tonight we don't want you to waste too much time on configuring all kinds of things. That's why we've made a VM available with all the neccessary dependencies.
 
 1. [Download and install Virtual Box](https://www.virtualbox.org/wiki/Downloads)
-2. Download the Meetup.ova \(TODO: add link\)
+2. [Download this virtual machine](https://drive.google.com/open?id=0B0n8qSqjK9ZvSWV5Vk9XSHE0VUE)
 3. Import Meetup.ova in Virtual Box \(just double click the .ova file\)
 4. Start the VM
 
