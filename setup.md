@@ -29,7 +29,7 @@ Please note: Windows is currently not supported by Cypress.io, so use the VM in 
 Try it out \(sufficient for this workshop\):
 
 * [JVM 7 or 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
-* Download and unzip [project's standalone.zip](https://github.com/fhoeben/hsac-fitnesse-fixtures/releases/download/2.12.1/hsac-fitnesse-fixtures-2.12.1-standalone.zip)
+* Download and unzip sample standalone.zip from [GitHub](https://github.com/fhoeben/sample-fitnesse-project/releases/tag/test-tooling-0.1)
 
 Full developer mode:
 
