@@ -3,8 +3,8 @@
 We've selected a number of interesting websites to use in our tests tonight. 
 Feel free to choose one or more of the options below and try your hand at a few of the exercises.
 
-(If you don't mind some spoilers for the exercises you can peek at wiki pages at: 
-https://github.com/fhoeben/sample-fitnesse-project/tree/testToolingWorkshop/wiki/FitNesseRoot/TestToolingWorkshop)
+(If you don't mind some spoilers for the exercises you can peek at the predefined wiki pages below 
+[http://localhost:9090/TestToolingWorkshop](http://localhost:9090/TestToolingWorkshop))
 
 * Update ‘funda Storyboard test’
 * Write front-end test for ‘typeform.com’
@@ -28,7 +28,7 @@ Update test to validate some more properties of the listing:
 ## typeform.com questionnaire
 
 ### Exercise
-* Add new test page to [HsacExamples/SlimTests/BrowserTests](http://localhost:9090/HsacExamples.SlimTests.BrowserTests) suite
+* Add new test page to [TestToolingWorkshop / FrontEndTests](http://localhost:9090/TestToolingWorkshop.FrontEndTests) suite
 * Add script table using ‘browser test’
 * Open questionnaire: https://fhoeben.typeform.com/to/fdx32Y  
 * Answer all questions (clicking and using keyboard)
@@ -37,7 +37,7 @@ Update test to validate some more properties of the listing:
 ## typeform.com API
 
 ### Exercise
-* Add new test page to [HsacExamples/SlimTests/HttpTests](http://localhost:9090/HsacExamples.SlimTests.HttpTests)
+* Add new test page to [TestToolingWorkshop / BackEndTests](http://localhost:9090/TestToolingWorkshop.BackEndTests)
 * Script table using ‘json http test’
 * Get from https://api.typeform.com/v1/form/fdx32Y?key=96a5b83b3cfb12c128fa62debeb9dfb51d96a59e 
 * Show response in test result
