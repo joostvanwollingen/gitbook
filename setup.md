@@ -23,6 +23,7 @@ Please note: Windows is currently not supported by Cypress.io, so use the VM in 
 
 * [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+* Download anad unzip the project: https://bitbucket.org/VX\_TA/karatedemo/downloads/
 
 ### FitNesse with HSAC fixtures
 
