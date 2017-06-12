@@ -25,7 +25,7 @@ Since Karate is built on top of [Cucumber-JVM](https://github.com/cucumber/cucum
 
 Karate does not attempt to have tests be in "natural language" like how Cucumber tests are [traditionally expected to be](https://cucumber.io/docs/reference#gherkin). That said, the syntax is very concise, and the convention of every step having to start with either
 
-`Given`,`And`,`When `or `Then`, 
+`Given`,`And`,`When`or `Then`,
 
 makes things very readable. You end up with a decent approximation of BDD even though web-services by nature are "headless", without a UI, and not really human-friendly.
 
@@ -33,7 +33,7 @@ If you are familiar with Cucumber \(JVM\), you may be wondering if you need to w
 
 So yes, you can say Karate is not a complete BDD framework.
 
-### Enough theory...  {#markdown-header-nederlands}
+### Enough theory... {#markdown-header-nederlands}
 
 **Keywords**
 
@@ -45,8 +45,6 @@ url 'https://myhost.com/v1/cats'
 ```
 
 A URL remains constant until you use the`url`keyword again, so this is a good place to set-up the 'non-changing' parts of your REST URL-s.
-
-
 
 
 
