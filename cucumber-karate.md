@@ -54,11 +54,11 @@ Then print myVar
 
 Note that`def`will over-write any variable that was using the same name earlier.
 
-1. Create a Cucumber background scenario that defines 4 variables for Rijksmuseum API test.  
-   1. Your Rijksmuseum API key \(hint: ?key=12345678\)  
-   2. Output JSON format as per Rijksmuseum API \(&format=json\)  
-   3. Base url \([https://www.rijksmuseum.nl/api/](https://www.rijksmuseum.nl/api/\)\)  
-   4. Language code \(culture\) \(hint: en/\)
+1. > Create a Cucumber background scenario that defines 4 variables for Rijksmuseum API test.  
+   > 1. Your Rijksmuseum API key \(hint: ?key=12345678\)  
+   > 2. Output JSON format as per Rijksmuseum API \(&format=json\)  
+   > 3. Base url \([https://www.rijksmuseum.nl/api/](https://www.rijksmuseum.nl/api/%29\)  
+   > 4. Language code \(culture\) \(hint: en/\)
 
 ## `assert`
 
