@@ -39,6 +39,10 @@ For a detailed discussion on BDD and how Karate relates to Cucumber, please refe
 
 ## Enough theory...
 
+All given examples are also in the **demo.feature**
+
+All awnsers are in **rijksmuseum.feature**
+
 ### Setting and Using Variables
 
 ## `def`
@@ -54,11 +58,12 @@ Then print myVar
 
 Note that`def`will over-write any variable that was using the same name earlier.
 
-1. > Create a Cucumber background scenario that defines 4 variables for Rijksmuseum API test.  
-   > 1. Your Rijksmuseum API key \(hint: ?key=12345678\)  
-   > 2. Output JSON format as per Rijksmuseum API \(&format=json\)  
-   > 3. Base url \([https://www.rijksmuseum.nl/api/](https://www.rijksmuseum.nl/api/%29\)  
-   > 4. Language code \(culture\) \(hint: en/\)
+_Create a new feature file with a background scenario that defines 4 variables for Rijksmuseum API test. _
+
+1. _Your Rijksmuseum API key \(hint: ?key=12345678\) ._
+2. _Output JSON format as per Rijksmuseum API \(&format=json\)._
+3. _Base url \(https://www.rijksmuseum.nl/api/\)._
+4. _Language code \(hint: culture\)_
 
 ## `assert`
 
@@ -67,26 +72,24 @@ Note that`def`will over-write any variable that was using the same name earlier.
 Once defined, you can refer to a variable by name. Expressions are evaluated using the embedded JavaScript engine. The assert keyword can be used to assert that an expression returns a boolean value.
 
 ```
-Given 
-def color = 
-'red '
-And 
-def num = 5
-
-Then 
-assert color + num == 
-'red 5'
+Given def color = 'red'
+And def num = 5
+Then assert color + num == 'red 5'
 ```
 
 Everything to the right of the`assert`keyword will be evaluated as a single expression.
+
+_Create a new scenario that asserts:_
+
+1. _The Base Url defined in the background equals "https://www.rijksmuseum.nl/api/"_
+2. _The Output JSON format as defined in the background equals "&format=json"_
 
 **Keywords**
 
 ## `url`
 
 ```
-Given 
-url 'https://myhost.com/v1/cats'
+Given url 'https://jsonplaceholder.typicode.com/posts/1'
 ```
 
 A URL remains constant until you use the`url`keyword again, so this is a good place to set-up the 'non-changing' parts of your REST URL-s.
