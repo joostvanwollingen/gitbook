@@ -62,7 +62,7 @@ _Create a new feature file with a background scenario that defines 4 variables f
 
 1. _Your Rijksmuseum API key \(hint: ?key=12345678\) ._
 2. _Output JSON format as per Rijksmuseum API \(&format=json\)._
-3. _Base url \(https://www.rijksmuseum.nl/api/\)._
+3. _Base url \(_[https://www.rijksmuseum.nl/api/\](https://www.rijksmuseum.nl/api/\)_\)._
 4. _Language code \(hint: culture\)_
 
 ## `assert`
@@ -81,7 +81,7 @@ Everything to the right of the`assert`keyword will be evaluated as a single expr
 
 _Create a new scenario that asserts:_
 
-1. _The Base Url defined in the background equals "https://www.rijksmuseum.nl/api/"_
+1. _The Base Url defined in the background equals "_[https://www.rijksmuseum.nl/api/](https://www.rijksmuseum.nl/api/)_"_
 2. _The Output JSON format as defined in the background equals "&format=json"_
 
 **Keywords**
@@ -93,4 +93,8 @@ Given url 'https://jsonplaceholder.typicode.com/posts/1'
 ```
 
 A URL remains constant until you use the`url`keyword again, so this is a good place to set-up the 'non-changing' parts of your REST URL-s.
+
+
+
+
 
