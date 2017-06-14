@@ -1,8 +1,8 @@
 # Cypress.io
 
-## Creating your first project
-
 > Note: If you haven't installed Cypress.io yet refer to the [Setup](/setup.md) section. If you are using the VM it should be in the list of shortcuts on the left.
+
+## Creating your first project
 
 * Open Cypress either by clicking the icon or by running `cypress open` on the command line
 * Sign-in to your [GitHub](https://github.com/join) account
