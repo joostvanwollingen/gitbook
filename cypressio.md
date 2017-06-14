@@ -32,7 +32,7 @@ By default Cypress creates some folders and files for you that you will probably
 ### Creating our first test
 
 * Create a file: `integration/rijksmuseum.js`
-* Copy paste the code below. It will be our template for the exercises.
+* Copy/paste the code below. It will be our template for the exercises.
 
 ```
 describe('Rijksmuseum exercises', function () {
@@ -52,16 +52,16 @@ describe('Rijksmuseum exercises', function () {
 ```
 
 * Run the tests with the Cypress GUI by clicking `rijksmuseum.js`. You will notice that the site opens and it executes two tests, but nothing happens yet. Let's change that!
-* In order to get to the agenda page on [https://www.rijksmuseum.nl](https://docs.cypress.io/docs/writing-your-first-test) we have to click a few links. `("Plan je bezoek" > "Nu in het museum" > "Dagagenda")`. To click on an item we first need to locate it, [Cypress uses CSS-locators](https://docs.cypress.io/docs/finding-elements) to find elements in the page DOM \(HTML\). The most important one is the [`get command`](https://docs.cypress.io/v1.0/docs/get).
+* In order to get to the agenda page on [https://www.rijksmuseum.nl](https://docs.cypress.io/docs/writing-your-first-test) we have to click a few links. `("Plan je bezoek" > "Nu in het museum" > "Dagagenda")`. To click on an item we first need to locate it, [Cypress uses CSS-locators](https://docs.cypress.io/docs/finding-elements) to find elements in the page DOM \(HTML\). The most important one is the [`get command`](https://docs.cypress.io/v1.0/docs/get). 
+
+  Copy/paste the code below to see how you could click the "Plan je bezoek"-link.
 
 ```
-cy
-    .get("[data-role='site-menu-items']")
-    .contains("Plan je bezoek")
-    .click()
+cy                                         //The cy  object is how we can interact with the browser through Cypress. 
+    .get("[data-role='site-menu-items']")  //This locates the elements that have an attribute called data-role with the value site-menu-items
+    .contains("Plan je bezoek")            //We search in the site-menu-items element for an element that contains "Plan je bezoek"
+    .click()                               //We click it
 ```
-
-
 
 
 
