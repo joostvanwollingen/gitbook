@@ -23,7 +23,7 @@ Please note: Windows is currently not supported by Cypress.io, so use the VM in 
 
 * [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
-* Download anad unzip the project: https://bitbucket.org/VX\_TA/karatedemo/downloads/
+* Download and unzip the project: [https://bitbucket.org/VX\_TA/karatedemo/downloads/](https://bitbucket.org/VX_TA/karatedemo/downloads/)
 
 ### FitNesse with HSAC fixtures
 
@@ -31,7 +31,7 @@ Try it out \(sufficient for this workshop\):
 
 * [JVM 7 or 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 * Download and unzip [sample standalone.zip from GitHub](https://github.com/fhoeben/sample-fitnesse-project/releases/tag/test-tooling-0.1)
-* On Linux only ('standalone.zip' contains these for Windows and macOS):
+* On Linux only \('standalone.zip' contains these for Windows and macOS\):
   * Download [chromedriver](http://chromedriver.storage.googleapis.com/2.29/chromedriver_linux64.zip) and extract as `webdrivers/chromedriver-linux-64bit`
   * Download [PhantomJS](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2) and extract as `webdrivers/phantomjs-linux-64bit`
   * Ensure both extracted files are executable
@@ -41,5 +41,6 @@ Full developer mode:
 * [JDK 7 or 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 * [Follow the HSAC instructions](https://github.com/fhoeben/hsac-fitnesse-fixtures#to-create-your-own-test-project)
+
 
 
