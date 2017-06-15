@@ -1,4 +1,4 @@
-# Exercises
+# Additional exercises
 
 We've selected a number of interesting websites to use in our tests tonight. Feel free to choose one or more of the options below and try your hand at a few of the exercises.
 
