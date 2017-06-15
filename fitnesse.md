@@ -1,4 +1,19 @@
-# Fitnesse
+# FitNesse with [HSAC-fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures) workshop
+
+We will use a sample test project. This project can either be used from:
+* inside the virtual machine prepared for the meetup (inside ~/Documents/Fitnesse directory)
+* a locally downloaded and extracted [standalone.zip](https://github.com/fhoeben/sample-fitnesse-project/releases/download/test-tooling-0.1/sample-fitnesse-project-using-hsac-fixtures-1.0-SNAPSHOT-standalone.zip)
+* its [source](https://github.com/fhoeben/sample-fitnesse-project/tree/test-tooling-0.1), using a JDK and Maven
+
+## Start local wiki
+First we will have to start our wiki server:
+* Open a terminal (or command prompt)
+* Go to the directory where the 'standalone.zip' was extracted (`cd ~/Documents/Fitnesse` in the virtual machine)
+* Start the server: `java -jar fitnesse-standalone.jar -p 9090`
+
+(If you want to run from source, with maven, use: `mvn compile exec:exec` from the project's root.)
+
+## Overview
 
 We've selected a number of interesting websites to use in our tests tonight.   
 Feel free to choose one or more of the options below and try your hand at a few of the exercises.
