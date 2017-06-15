@@ -24,7 +24,7 @@ We've selected a number of interesting websites to use in our tests tonight. Fee
 
 #### API Key
 
-To get an API key for the Rijksmuseum website [follow the instructions.](https://www.rijksmuseum.nl/en/api)
+To get an API key for the Rijksmuseum website [follow the instructions.](https://www.rijksmuseum.nl/en/api) \(Only needed if you want to do REST with Fitnesse or Karate\)
 
 #### API Documentation
 
