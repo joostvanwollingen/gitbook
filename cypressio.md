@@ -13,7 +13,7 @@ If you haven't installed Cypress.io yet refer to the [Setup](/setup.md) section.
 
 > Optionally: Click `example_spec.js`  in the Cypress GUI to see the example tests run and get a feel for Cypress.
 
-### Project structure
+### 1.1 Project structure
 
 By default Cypress creates some folders and files that you will probably need. During this workshop we will only use `integration/*.js` and `support/commands.js` files. If you want to know what the other files do, checkout the [Cypress.io documentation.](https://docs.cypress.io/docs/writing-your-first-test)
 
@@ -29,7 +29,9 @@ By default Cypress creates some folders and files that you will probably need. D
 └── cypress.json
 ```
 
-## Creating our first test
+## 2. The Rijksmuseum website
+
+## 2.1 Creating our first test
 
 * Create a file: `integration/rijksmuseum.js`
 
@@ -54,7 +56,7 @@ describe('Rijksmuseum exercises', function () {
 ```
 
 * Run the tests with the Cypress GUI by clicking `rijksmuseum.js`. You will notice that the site opens and it executes two tests, but nothing happens yet. Let's change that!
-* In order to get to the agenda page on [https://www.rijksmuseum.nl](https://docs.cypress.io/docs/writing-your-first-test) we have to click a few links. `("Plan je bezoek" > "Nu in het museum" > "Dagagenda")`. To click on an item we first need to locate it, [Cypress uses CSS-locators](https://docs.cypress.io/docs/finding-elements) to find elements in the page DOM \(HTML\). The most important one is the [`get command`](https://docs.cypress.io/v1.0/docs/get).
+* In order to get to the agenda page on [https://www.rijksmuseum.nl](https://docs.cypress.io/docs/writing-your-first-test) we have to click a few links. `"Plan je bezoek" > "Nu in het museum" > "Dagagenda"`. To click on an item we first need to locate it, [Cypress uses CSS-locators](https://docs.cypress.io/docs/finding-elements) to find elements in the page DOM \(HTML\). The most important one is the [`get command`](https://docs.cypress.io/v1.0/docs/get).
 
   Copy/paste the code below to see how you could click the "Plan je bezoek"-link.
 
@@ -64,16 +66,23 @@ cy                                            //The cy  object is how we can int
     .click()                                  //We click it
 ```
 
-* Expand the script with the locators for the [Anchor-elements](https://www.w3.org/MarkUp/1995-archive/Elements/A.html) : `"Nu in het museum" & "Dagagenda"`
+* Expand the script with the locators and clicks for the [Anchor-elements](https://www.w3.org/MarkUp/1995-archive/Elements/A.html) : `"Nu in het museum" & "Dagagenda"`
 * Now that we are on the [Dagagenda-page](https://www.rijksmuseum.nl/nl/agenda/) we have to:
   1. Open the calendar
   2. Click next to go to July
   3. Click the 27th
 * Write the statements for these steps
-* Finally we want to verify that the start and end time for the `Rondleiding Hoogtepunten van het Rijksmuseum`  event matches 11:00 - 12:00. First we need a locator for the HTML element that contains this piece of information and finally we can use Cypress' [should method](https://docs.cypress.io/v1.0/docs/should) to verify its contents.
+* Finally we want to verify that the start and end time for the `Rondleiding Hoogtepunten van het Rijksmuseum`  event matches 11:00 - 12:00. First we need a locator for the HTML element that contains this piece of information and finally we can use Cypress' [should method](https://docs.cypress.io/v1.0/docs/should) to verify its contents. To check the contents of an element you can use the "contain" keyword.
+
+```
+.get("<your locator>")
+.should("contain","<text you want to check for")
+```
+
+* Implement the check and run your test. Does it pass?
 * Congrats, you've just finished your first test using Cypress.io!
 
-## Second exercise: Admission price
+## 2.2 Second exercise: Admission price
 
 Before we go to the museum, let's check the admission price for adults. This information is displayed on the ["Openingstijden & prijzen page"](https://www.rijksmuseum.nl/nl/praktische-informatie/openingstijden-en-prijzen). You can navigate there by clicking `Plan je bezoek" > "Praktische info" > "Openingstijden en prijzen.`
 
@@ -107,6 +116,20 @@ Cypress.addParentCommand("clickOn", function (input) {
 ```
 
 * Now use this command in your test to navigate to the Openingstijden page.
+* Part of the HTML looks like this:
+
+```
+<h2>Prijzen</h2>
+<ul>
+<li>Volwassenen: € 17,50</li>
+<li>Jongeren t/m 18 jaar, Museumkaart, <a href="/nl/steun-het-rijks/word-vriend">Vrienden van het Rijksmuseum</a>, ICOM, Vereniging Rembrandt, KOG, VVAK, BankGiro Loterij VIP-KAART: gratis</li>
+<li>CJP, Stadspas, EYCA: 50% van de reguliere ticketprijs</li>
+</ul>
+```
+
+* We want to verify that the first LI element in the list has the price and that it is just next to the H2 element with the value Prijzen. Which locators can you use for that? Cypress offers some functions for [DOM traversal](https://docs.cypress.io/v1.0/docs) \(scroll to DOM traversal header\), experiment with a few until you are happy with your solution.
+
+
 
 
 
