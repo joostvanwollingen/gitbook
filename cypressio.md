@@ -129,5 +129,11 @@ Cypress.addParentCommand("clickOn", function (input) {
 
 * We want to verify that the first LI element in the list has the price and that it is just next to the H2 element with the value Prijzen. Which locators can you use for that? Cypress offers some functions for [DOM traversal](https://docs.cypress.io/v1.0/docs) \(scroll to DOM traversal header\), experiment with a few until you are happy with your solution.
 
+# 3. Additional exercises
+
+Want more? Have a look at the [additional exercises.](/sut.md) You can have a look at some of the possible solutions by checking out [https://github.com/joostvanwollingen/cypress-test-tooling-workshop.](https://github.com/joostvanwollingen/cypress-test-tooling-workshop)
+
+
+
 
 
