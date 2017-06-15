@@ -29,9 +29,10 @@ By default Cypress creates some folders and files that you will probably need. D
 └── cypress.json
 ```
 
-### Creating our first test
+## Creating our first test
 
 * Create a file: `integration/rijksmuseum.js`
+
 * Copy/paste the code below. It will be our template for the exercises.
 
 ```
@@ -70,6 +71,42 @@ cy                                            //The cy  object is how we can int
   3. Click the 27th
 * Write the statements for these steps
 * Finally we want to verify that the start and end time for the `Rondleiding Hoogtepunten van het Rijksmuseum`  event matches 11:00 - 12:00. First we need a locator for the HTML element that contains this piece of information and finally we can use Cypress' [should method](https://docs.cypress.io/v1.0/docs/should) to verify its contents.
+* Congrats, you've just finished your first test using Cypress.io!
+
+## Second exercise: Admission price
+
+Before we go to the museum, let's check the admission price for adults. This information is displayed on the ["Openingstijden & prijzen page"](https://www.rijksmuseum.nl/nl/praktische-informatie/openingstijden-en-prijzen). You can navigate there by clicking `Plan je bezoek" > "Praktische info" > "Openingstijden en prijzen.`
+
+Writing locators every time we just want to click visible text gets a bit tiring. Let's see if we can create a function that makes that a bit easier.
+
+* Open the `support/commands.js` file. This file contains [custom commands](https://docs.cypress.io/v1.0/docs/commands) that we can re-use throughout our tests.
+* Add the following code:
+
+```
+Cypress.addParentCommand("clickOn", function (input) {
+    var input = input || ""
+
+    var log = Cypress.Log.command({
+        name: "clickOn",
+        message: [input],
+        onConsole: function () {
+            return {
+                text: input
+            }
+        }
+    })
+
+    cy
+        .get("body")
+        .contains(input)
+        .click()
+        .then(function () {
+            log.snapshot().end()
+        })
+})
+```
+
+* Now use this command in your test to navigate to the Openingstijden page.
 
 
 
