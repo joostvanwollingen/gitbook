@@ -95,7 +95,7 @@ Writing locators every time we just want to click visible text gets a bit tiring
 Cypress.addParentCommand("clickOn", function (input) {
     var input = input || ""
 
-    var log = Cypress.Log.command({
+    var log = Cypress.Log.command({                       //Log to the console
         name: "clickOn",
         message: [input],
         onConsole: function () {
@@ -128,8 +128,6 @@ Cypress.addParentCommand("clickOn", function (input) {
 ```
 
 * We want to verify that the first LI element in the list has the price and that it is just next to the H2 element with the value Prijzen. Which locators can you use for that? Cypress offers some functions for [DOM traversal](https://docs.cypress.io/v1.0/docs) \(scroll to DOM traversal header\), experiment with a few until you are happy with your solution.
-
-
 
 
 
